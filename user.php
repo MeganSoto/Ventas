@@ -9,7 +9,7 @@
 
    $tan=count($user);
 
-   for($x=0; $x<$tan; $xx++)
+   for($x=0; $x<$tan; $x++)
    {
    	   if($user[$x]==$nombre && $pass[$x]==$password)
 	   {
@@ -19,7 +19,7 @@
 
    if($estado)
    {
-   	   echo "user ok";
+   	 header("location:ventas.html"); 
    }
    else 
 	{
