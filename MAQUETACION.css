@@ -6,7 +6,7 @@ padding:13px;
 
 body
 {
-  background:#ffff00;
+  background:black;
   font-family: Arial, sans-searl,'Times New Roman';
 }
 
@@ -17,6 +17,7 @@ body
   margin:2px auto;
   border: 2.5px solid white;
   color: black;
+  padding: 10px;
 }
 
 #TITULO
@@ -26,4 +27,5 @@ body
   margin:2px auto;
   border: 2.5px solid white;
   color: black;
+  padding: 10px;
 }
