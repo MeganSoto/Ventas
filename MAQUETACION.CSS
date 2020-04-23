@@ -1,0 +1,29 @@
+*
+{
+margin:13px;
+padding:13px;
+}
+
+body
+{
+  background:black;
+  font-family: Arial, sans-searl,'Times New Roman';
+}
+
+#CUERPO
+{
+  background:#fffacd;
+  width:1100px;
+  margin:2px auto;
+  border: 2.5px solid white;
+  color: black;
+}
+
+#TITULO
+{
+  background:#ffff00;
+  width:1100px;
+  margin:2px auto;
+  border: 2.5px solid white;
+  color: black;
+}
