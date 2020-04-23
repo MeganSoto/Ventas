@@ -14,18 +14,18 @@ body
 {
   background:#2f6f40;
   width:1100px;
-  margin:2px auto;
+  margin:-10px auto;
   border: 2.5px solid white;
   color: black;
-  padding: 70px;
+  padding: -20px;
 }
 
 #TITULO
 {
   background:#265912;
   width:1100px;
-  margin:2px auto;
+  margin:-10px auto;
   border: 2.5px solid white;
   color: black;
-  padding: 70px;
+  padding: -20px;
 }
