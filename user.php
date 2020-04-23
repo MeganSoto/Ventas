@@ -1,5 +1,5 @@
 <?php
-   $user=array("dimateo","megan","sofia");
+   $user=array("Dimateo","Megan","Sofia");
    $pass=array(123,456,789);
 
    $estado=false;
