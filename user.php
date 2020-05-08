@@ -1,28 +1,23 @@
 <?php
-   $user=array("Dimateo","Megan","Sofia");
-   $pass=array(123,456,789);
+   include('ValidarUser.php');
 
-   $estado=false;
+   $validar = new ValidarUsuario;
 
    $nombre=$_POST['nombre'];
    $password=$_POST['pass'];
 
-   $tan=count($user);
+   $resultado=$validar->ValidarUser($nombre, $password);
 
-   for($x=0; $x<$tan; $x++)
-   {
-   	   if($user[$x]==$nombre && $pass[$x]==$password)
-	   {
-	   	   $estado=true;
-	   }
-   }
+   var_dump($resultado);
 
-   if($estado)
+   if($resultado->num_rows == 1)
    {
-   	 header("location:ventas.html"); 
-   }
-   else 
-	{
-	header("location:index.html");
-	}
+   	  header("location:ventas.php"); 
+   }  
+   
+   else
+   {
+	   header("location:index.html");
+   } 
+	
 ?>
