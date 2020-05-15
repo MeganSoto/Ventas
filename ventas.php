@@ -94,7 +94,13 @@
     ?>
 
     <div align="center" >
-        <table border="8" bgcolor="gray">
+        <table border="1"  bgcolor="gray">
+		<tr  bgcolor="silver">
+		<td>NOMBRE</td>
+		<td>DESCRIPCION</td>
+		<td>PRODUCTO</td>
+		<td>AGREGAR CARRITO</td>
+		</tr>
             <tr bgcolor="silver">
                 <td> FUNKO! POP de Hulk </td>
                 <td>
@@ -104,9 +110,8 @@
                     <br />
                     -Viene embalado en una caja ilustrada y con ventanas
                 </td>
-                <td>   <img src="imagenes/1.jpg" height="150px" width="150px" alt="" /> <br/>
-                       <a href="?producto=Hulk&precio=130">Comprar</a>
-               </td>
+                <td>   <img src="imagenes/1.jpg" height="150px" width="150px" alt="" /> </td>
+				<td><a href="?producto=Hulk&precio=130">Comprar</a><td>
             </tr>
             <tr bgcolor="silver">
                 <td> FUNKO! POP de Capitana Marvel </td>
@@ -117,9 +122,8 @@
                     <br />
                     -Viene embalado en una caja ilustrada y con ventanas
                 </td>
-                <td>   <img src="imagenes/2.jpg" height="150px" width="150px" alt="" /> <br/>
-                       <a href="?producto=CapitanaMarvel&precio=100">Comprar</a>
-               </td> 
+                <td>   <img src="imagenes/2.jpg" height="150px" width="150px" alt="" /> </td> 
+				<td> <a href="?producto=CapitanaMarvel&precio=100">Comprar</a></td>
             </tr>
             <tr bgcolor="silver">
                 <td> FUNKO! POP de Groot </td>
@@ -130,9 +134,8 @@
                     <br />
                     -Viene embalado en una caja ilustrada y con ventanas
                 </td>
-                <td>   <img src="imagenes/3.jpg" height="150px" width="150px" alt="" /> <br/>
-                       <a href="?producto=Groot&precio=149">Comprar</a>
-                </td>
+                <td>   <img src="imagenes/3.jpg" height="150px" width="150px" alt="" /> </td>
+				  <td><a href="?producto=Groot&precio=149">Comprar</a></td>
             </tr>
             <tr bgcolor="silver">
                 <td>FUNKO! POP de Pantera negra </td>
@@ -143,9 +146,8 @@
                     <br />
                     -Viene embalado en una caja ilustrada y con ventanas
                 </td>
-                <td>   <img src="imagenes/4.jpg" height="150px" width="150px" alt="" /> <br/>
-                       <a href="?producto=PanteraNegra&precio=116">Comprar</a>
-                      </td> 
+                <td>   <img src="imagenes/4.jpg" height="150px" width="150px" alt="" /> </td> 
+				<td> <a href="?producto=PanteraNegra&precio=116">Comprar</a></td>
             </tr>
             <tr bgcolor="silver">
                 <td> FUNKO! POP de Viuda negra </td>
@@ -156,9 +158,8 @@
                     <br />
                     -Viene embalado en una caja ilustrada y con ventanas
                 </td>
-                <td>   <img src="imagenes/5.jpg" height="150px" width="150px" alt="" /><br/>
-                       <a href="?producto=ViudaNegra&precio=120">Comprar</a>
-               </td>
+                <td>   <img src="imagenes/5.jpg" height="150px" width="150px" alt="" /></td>
+				<td> <a href="?producto=ViudaNegra&precio=120" Comprar</a></td>
             </tr>
 
         </table>
