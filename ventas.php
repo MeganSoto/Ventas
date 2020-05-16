@@ -94,7 +94,9 @@
     ?>
 
     <div align="center" >
-        <table border="1"  bgcolor="gray">
+        <table border="1
+		
+		"  bgcolor="gray">
 		<tr  bgcolor="silver">
 		<td>NOMBRE</td>
 		<td>DESCRIPCION</td>
@@ -159,11 +161,11 @@
                     -Viene embalado en una caja ilustrada y con ventanas
                 </td>
                 <td>   <img src="imagenes/5.jpg" height="150px" width="150px" alt="" /></td>
-				<td> <a href="?producto=ViudaNegra&precio=120" Comprar</a></td>
+				<td> <a href="?producto=ViudaNegra&precio=120"> Comprar</a></td>
             </tr>
 
         </table>
-
+		
     </div>
 </body>
 </html>
